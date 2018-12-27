@@ -1,0 +1,26 @@
+{
+  "name": "study_react",
+  "version": "1.0.0",
+  "description": "Study React",
+  "main": "webpack.config.js",
+  "author": "t-ishii <perlispython.plp@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "webpack-serve --host localhost",
+    "build": "NODE_ENV=production webpack",
+    "build:dev": "webpack --watch --progress"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "awesome-typescript-loader": "^5.2.1",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-serve": "^2.0.3"
+  }
+}
